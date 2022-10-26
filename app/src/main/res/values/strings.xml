@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">counterams</string>
-    <string name="tocam">tocam</string>
+    <string name="tocam">tocame mucho</string>
     <string name="timeText">temps disponible:%1$d</string>
+    <string name="coutText">comptador:%1$d</string>
+    <string name="endGame">temps acabat! Resultat: %1$d</string>
 </resources>
