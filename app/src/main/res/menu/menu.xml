@@ -4,5 +4,7 @@
 
     <item
         android:id="@+id/actionAbout"
-        android:title="@string/aboutMenu" />
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/aboutMenu"
+        app:showAsAction="always" />
 </menu>

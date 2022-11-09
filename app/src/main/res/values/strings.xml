@@ -5,4 +5,6 @@
     <string name="coutText">comptador:%1$d</string>
     <string name="endGame">temps acabat! Resultat: %1$d</string>
     <string name="aboutMenu">about</string>
+    <string name="aboutTitle">Time Fighter %1$s</string>
+    <string name="aboutMessage">creat per Aleix Montero Sabaté github:https://github.com/AleixMS5/mp8_aleixms</string>
 </resources>
