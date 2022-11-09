@@ -4,4 +4,5 @@
     <string name="timeText">temps disponible:%1$d</string>
     <string name="coutText">comptador:%1$d</string>
     <string name="endGame">temps acabat! Resultat: %1$d</string>
+    <string name="aboutMenu">about</string>
 </resources>

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
+import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -35,11 +36,16 @@ private val INITTAL_TIME =20
         tapMeButton = findViewById(R.id.tapMeButton)
         counter = findViewById(R.id.counter)
         time = findViewById(R.id.time)
-        tapMeButton.setOnClickListener {
+        tapMeButton.setOnClickListener {view->
             if (!appStarted) {
                 startGame()
             }
+           val bounceAnimation= AnimationUtils.loadAnimation(this,R.anim.bounce)
+
+            view.startAnimation(bounceAnimation)
+
             incrementCounter()
+
         }
         time.text = getString(R.string.timeText, timer)
     }
@@ -67,7 +73,9 @@ private val INITTAL_TIME =20
 
         count = count + 1
         counter.text = getString(R.string.coutText, count)
-
+        val blingAnimation = AnimationUtils.loadAnimation(this,
+            R.anim.bling);
+        counter.startAnimation(blingAnimation)
 
     }
 
